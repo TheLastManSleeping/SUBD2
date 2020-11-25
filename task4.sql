@@ -1,4 +1,4 @@
-use MyData;
+п»їuse MyData;
 
 set foreign_key_checks = 0;
 truncate table gtype;
@@ -9,10 +9,10 @@ truncate table result;
 
 insert into gtype(id, gtype) values
 (1, '1'), (2, '2'), (3, '3'), (4, '4'), (5, '5'), (6, '6'), (7, '7'), (8, '8'), (9, '9'), (10, '10'), (11,
-'зачёт'), (12, 'незачёт'), (13,'неявка');
+'Р·Р°С‡С‘С‚'), (12, 'РЅРµР·Р°С‡С‘С‚'), (13,'РЅРµСЏРІРєР°');
 
 insert into control(id, control) values
-(1, 'зачёт'), (2, 'экзамен');
+(1, 'Р·Р°С‡С‘С‚'), (2, 'СЌРєР·Р°РјРµРЅ');
 
 insert into subject(id)
 select
