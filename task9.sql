@@ -7,7 +7,7 @@ insert into personal(id, id_addr1, id_addr2, id_addr3, id_department,
 id_email, id_faculty, id_sex, id_lname1, id_lname2, id_lname3, id_post, id_place,
 id_speciality, id_university, date1,
 mob_num, date3, date4,
-series, password, identity, date2, course, group, form)
+series, password, identity, date2, `course`, `group`, `form`)
 select
 (@index := @index + 1) as id,
 (rand() * (addr_max - 1) + 1),
