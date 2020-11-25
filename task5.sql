@@ -1,13 +1,3 @@
-﻿use MyData;
-
-set foreign_key_checks = 0;
-truncate table gtype;
-truncate table control;
-truncate table subject;
-truncate table teacher;
-truncate table result;
-
-insert into gtype(id, gtype) values
 use MyData;
 
 set foreign_key_checks = 0;
