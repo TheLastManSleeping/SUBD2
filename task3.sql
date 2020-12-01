@@ -22,7 +22,7 @@ name as t2,
 (select @index := 0) as t_index
 limit 100;
 
-insert into adress(id, id_country, id_area, id_city, id_street, id_stype, id_ctype, id_district, house, corps, flat, index, number)
+insert into adress(id, id_country, id_area, id_city, id_street, id_stype, id_ctype, id_district, `house`, `corps`, `flat`, `index`, `number`)
 select
 (@index := @index + 1) as id,
 (rand() * (country_max - 1) + 1),
